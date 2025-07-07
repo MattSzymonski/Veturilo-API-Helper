@@ -5,8 +5,6 @@
 // 2. Find a specific station by its number
 // 3. Retrieve all bikes at a given station
 // 4. Search for a specific bike by its number
-//
-// Prerequisites: run `npm install node-fetch @types/node` if not already done
 
 import {
   getAllStations,
@@ -88,7 +86,8 @@ async function showBikeByNumber(bikeNumber: number) {
     await showBikesAtStation(exampleStationNumber);
 
     console.log("\n--- Show Bike by Number ---");
-  await showBikeByNumber(exampleBikeNumber);
+    await showBikeByNumber(exampleBikeNumber);
+    
    } catch (err) {
     console.error("Error:", err);
   }
