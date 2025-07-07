@@ -6,7 +6,7 @@ It fetches, parses, and exposes structured information about bike stations, avai
 **Note:** This library only provides data for bikes that are currently parked and available, not those that are rented out.
 
 ## Installation
-
+Issue `npm install veturilo-api-helper` in your project folder.
 
 ## Data Source
 
