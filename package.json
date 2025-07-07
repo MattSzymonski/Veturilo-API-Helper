@@ -34,9 +34,6 @@
     "example": "npx tsx example/example_usage.ts"
   },
   "type": "module",
-  "dependencies": {
-    "node-fetch": "^3.3.2"
-  },
   "devDependencies": {
     "@types/node": "^20.0.0",
     "typescript": "^5.8.3"

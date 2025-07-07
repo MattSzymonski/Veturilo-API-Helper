@@ -3,8 +3,6 @@
 // This library fetches and formats bike and station data from Veturilo (Nextbike).
 // Data source: https://veturilo.waw.pl/wp-json/nbmap/v1/data?target=https%3A%2F%2Fapi-gateway.nextbike.pl%2Fapi%2Fmaps%2Flocations%3FserviceUid%3Dvw
 
-import fetch from "node-fetch";
-
 // --- TYPES ---
 
 export enum BikeType {
