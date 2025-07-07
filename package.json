@@ -1,0 +1,44 @@
+{
+  "name": "veturilo-api-helper",
+  "version": "1.0.0",
+  "description": "Helper library for accessing Warsaw Veturilo (Nextbike) public bike system data.",
+  "author": "MattSzymonski <mattszymonski.com>",
+  "keywords": [
+    "veturilo",
+    "nextbike",
+    "bike",
+    "api",
+    "warsaw",
+    "typescript",
+    "library"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/MattSzymonski/Veturilo-API-Helper",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MattSzymonski/Veturilo-API-Helper.git"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "example": "npx tsx example/example_usage.ts"
+  },
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.8.3"
+  }
+}
